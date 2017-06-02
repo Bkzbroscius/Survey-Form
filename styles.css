@@ -1,0 +1,47 @@
+h1 {
+    text-align: center;
+}
+
+input[type="text"] {
+    padding: 5px;
+    margin: 5px;
+}
+
+#number {
+    margin-left: 25px;
+}
+
+#lastName {
+    margin-left: 8px;
+}
+
+#survey-form {
+    margin-left: 33%;
+}
+
+#description {
+    text-align: center;
+}
+
+body {
+    background-color: rgba(74, 167, 135, 0.5);
+    font-family: 'Alegreya';
+}
+
+#frm {
+    background-color: #FFFFFF;
+    width: 50%;
+    height: 50%;
+    margin: auto;
+  
+    font-size: 1.3em;
+}
+
+input[type="submit"] {
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#email {
+    margin-left: 10px;
+}

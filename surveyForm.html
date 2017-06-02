@@ -1,0 +1,56 @@
+<html>
+<head>
+<title>Portfolio Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='//fonts.googleapis.com/css?family=Alegreya' rel='stylesheet'>
+    <link href="styles.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <div id="main">
+        <div id="frm">
+            <h1 id="title">Survey Form</h1>
+            <p id="description">Please fill out this form so we can improve our curriculum</p>
+            <form id="survey-form" name="survey">
+                <label for="name" id="name-label">*Name</label>
+                <input type="text" id="name" name="name" placeholder="name" required><br>
+                <label for="number" id="number-label">*Age</label>
+                <input type="number" id="number" name="age" min=1 max=100 placeholder="age"><br>
+                <label id="email-label" for="email">*email</label>
+                <input type="email" id="email" name="email" placeholder="email" required><br>
+                <p>What do you do for a living?</p>
+                <select id="dropdown" name="profession">
+                    <option>Student</option>
+                    <option>Web Developer</option>
+                    <option>Other</option>
+                    <option>Prefer Not To Say</option>
+                </select>
+                <br>
+                <p>What is your favorite part of the course?</p>
+                <select id="favorite" name="favorite">
+                    <option>Web Design</option>
+                    <option>Algorithms</option>
+                    <option>Coding Projects</option>
+                    <option>Prefer Not To Say</option>
+                </select>
+                <p>What would you like to see more of (Check all that apply)</p>
+                <input type="checkbox" name="more" value="algorithms"><label for="algorithms">Algorithmic Challenges</label><br>
+                <input type="checkbox" name="more" value="networking"><label for="networking">Networking Rooms</label><br>
+                <input type="checkbox" name="more" value="coding"><label for="coding">Coding Challenges</label><br>
+                <input type="checkbox" name="more" value="courses"><label for="courses">Courses</label><br>
+                <p>*How likely are you to recommend Free Code Camp?</p>
+                
+                <input type="radio" name="recommend" value="likely" checked><label for="likely">Highly Likely</label><br>
+                <input type="radio" name="recommend" value="unlikely"><label for="unlikely">Unlikely</label><br>
+                <input type="radio" name="recommend"  value="maybe"><label for="maybe">Maybe</label><br>
+              
+                <p>Comments</p>
+                <textarea></textarea><br>
+                <input type="submit" id="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+  </body>
+</html>
+        
+    
